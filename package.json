@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cryptr": "^6.4.0"
+  },
+  "scripts": {
+    "cyo": "cypress open"
+  }
+}
+
+
+
+    
