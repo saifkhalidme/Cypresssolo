@@ -26,7 +26,7 @@ class WrongLogin {
 class DashboardDetails{
 
     details(){
-    cy.get('.oxd-layout-context').should('be.visible')
+    cy.get('.oxd-layout-context',{timeout:3000}).should('be.visible')
     cy.contains('Dashboard').should('be.visible')
 
 }

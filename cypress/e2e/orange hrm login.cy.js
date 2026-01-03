@@ -10,6 +10,7 @@ describe('Verify Login button and forgot password is functional' , ()=>{
     it('Login button' , ()=> {
 
     cy.orangeVisit()
+    cy.wait(20000)
     ologin.orangeLogin()
     dashboard.details()
     
@@ -18,7 +19,7 @@ describe('Verify Login button and forgot password is functional' , ()=>{
     it('Forgot Password button ' ,()=>{
 
     cy.orangeVisit()
-    cy.wait(3000)
+    cy.wait(30000)
     forgot.iForgot()
     
    })
