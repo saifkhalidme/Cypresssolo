@@ -1,9 +1,10 @@
-import {LoginModal,WrongLogin,DashboardDetails,ForgotPassword,PunchInVerification} from '../Pages/orange hrm login'
+import {LoginModal,WrongLogin,DashboardDetails,ForgotPassword,PunchInVerification,PunchOut} from '../Pages/orange hrm login'
 const ologin = new LoginModal()
 const xlogin = new WrongLogin()
 const forgot = new ForgotPassword()
 const dashboard= new DashboardDetails()
 const attendance= new PunchInVerification()
+const attendanceOut= new PunchOut()
 
 describe('Verify Login button and forgot password is functional' , ()=>{
 
@@ -49,7 +50,12 @@ describe('Verify punch In Punch out Functionality is working in dashboard', ()=>
          cy.orangeVisit()
          ologin.orangeLogin()
          attendance.punchIN()
-      })
+      
+}) 
+     it ('Punch out functionality' ,()=>{
+        cy.orangeVisit()
+        ologin.orangeLogin()
+        attendanceOut.punchOutt()
 })
-
+})
 
