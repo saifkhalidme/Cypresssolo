@@ -19,8 +19,8 @@ describe('Verify Login button and forgot password is functional' , ()=>{
     it('Forgot Password button ' ,()=>{
 
     cy.orangeVisit()
-    cy.wait(30000)
     forgot.iForgot()
+    cy.wait(10000)
     
    })
     
@@ -31,6 +31,7 @@ describe ('Verify login flow with wrong creds and cred validation ',()=>{
      it('Login with wrong username and password' , ()=>{
       
       cy.orangeVisit()
+      cy.wait(10000)
       xlogin.wrongOrange()
 
    })

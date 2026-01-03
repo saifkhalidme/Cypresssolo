@@ -20,7 +20,7 @@ Cypress.Commands.add('emptylogin', ()=>{
     cy.get('button[type="submit"]').click()
     cy.contains('span', 'Required').should('be.visible')
 })
-Cypress.Commands.add('tOut',(timeout=10000)=>{
+Cypress.Commands.add('tOut',(timeout=40000)=>{
     return cy.get('selector' , {})
    
 })

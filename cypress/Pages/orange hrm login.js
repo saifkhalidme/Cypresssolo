@@ -26,7 +26,7 @@ class WrongLogin {
 class DashboardDetails{
 
     details(){
-    cy.get('.oxd-layout-context',{timeout:3000}).should('be.visible')
+    cy.get('.oxd-layout-context',{timeout:4000}).should('be.visible')
     cy.contains('Dashboard').should('be.visible')
 
 }
@@ -48,11 +48,11 @@ class ForgotPassword{
  
  class PunchInVerification{
     punchIN(){
-      cy.tOut('.oxd-icon-button.oxd-icon-button--solid-main.orangehrm-attendance-card-action').should('be.visible').click()
+      cy.get('.oxd-icon-button.oxd-icon-button--solid-main.orangehrm-attendance-card-action',{timeout:10000}).should('be.visible').click()
        cy.get('.orangehrm-card-container').should('be.visible')
        cy.get('button[type="Submit"]').click()
        cy.get('.orangehrm-card-container').should('be.visible')
-       cy.contains('text','Out')
+       cy.contains('text',"Out")
  }
 }
 export default {LoginModal,WrongLogin,DashboardDetails,ForgotPassword,PunchInVerification}
