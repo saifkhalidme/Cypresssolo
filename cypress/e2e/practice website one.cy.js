@@ -1,4 +1,4 @@
-import {FormFill,PersonalDetail,DatesSubmit,Pictures,SearchBar} from '../Pages/complicatedPage'
+import {FormFill,PersonalDetail,DatesSubmit,Pictures,SearchBar} from '../Pages/practice website one'
 
 const form1= new FormFill()
 const form2= new PersonalDetail()
@@ -6,7 +6,7 @@ const date1= new DatesSubmit()
 const image1= new Pictures()
 const searchit= new SearchBar()
 
-describe('testingforms', ()=>{
+describe('Verify forms,images and websearch are functional on website', ()=>{
 
  it('basics' , ()=> {
     cy.webVisit()

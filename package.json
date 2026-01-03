@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^15.7.1"
+    "cypress": "^15.7.1",
+    "dotenv": "^17.2.3"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -10,7 +11,3 @@
     "cyo": "cypress open"
   }
 }
-
-
-
-    
