@@ -17,7 +17,8 @@ class WrongLogin {
     cy.fixture('orangewrong').then((creds)=>{
     cy.get('input[name="username"]').type(creds.username)
     cy.get('input[name="password"]').type(creds.password)
-    cy.get('button[type="submit"]').click() 
+    cy.get('button[type="submit"]').click()
+    cy.get('.oxd-alert-content.oxd-alert-content--error').should('be.visible')
     })
 
 }
