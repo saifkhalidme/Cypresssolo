@@ -18,6 +18,7 @@ class SearchBarr{
 class SearchBarFunc{
     searchBarWork(){
     cy.get('#Search').type('FI-SW-01')
+    cy.get('input[name="searchProducts"]').click()
 }
 }
 
