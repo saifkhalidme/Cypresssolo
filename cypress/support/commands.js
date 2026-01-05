@@ -4,6 +4,7 @@ Cypress.Commands.add ('webVisit', ()=>{
 
 Cypress.Commands.add('orangeVisit' , ()=>{
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+    
 
     
 })
