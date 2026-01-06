@@ -32,7 +32,7 @@ describe ('Verify login flow with wrong creds and cred validation ',()=>{
      it('Login with wrong username and password' , ()=>{
       
       cy.orangeVisit()
-      cy.wait(10000)
+      cy.wait(20000)
       xlogin.wrongOrange()
 
    })
