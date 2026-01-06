@@ -8,10 +8,10 @@ class BuzzPage {
     cy.get('a[href="/web/index.php/buzz/viewBuzz"]').click()
     cy.get('.oxd-layout-context').should('be.visible')
     cy.contains('.oxd-layout-context' , 'Buzz Newsfeed').should('be.visible')
-} 
+   
 }
-class UploadBuzz{
-   buzzTheFeed() {
+
+    buzzPicUpload() {
 
    cy.get('.oxd-main-menu').should('be.visible')
    cy.get('a[href="/web/index.php/buzz/viewBuzz"]').click()
@@ -19,4 +19,4 @@ class UploadBuzz{
 
 }
 }
-export default { BuzzPage,UploadBuzz}
+export default BuzzPage
