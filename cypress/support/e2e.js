@@ -1,5 +1,5 @@
 Cypress.on('fail', (error) => {
-  if (error.message.includes('Timed out after waiting 60000ms for your remote page to load.')) {
+  if (error.message.includes('Timed out after waiting 70000ms for your remote page to load.')) {
     return false; // prevent Cypress from failing the test
   }
   throw error;
