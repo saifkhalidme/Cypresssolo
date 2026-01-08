@@ -1,41 +1,22 @@
-Cypress.Commands.add ('webVisit', ()=>{
-    cy.visit('https://testautomationpractice.blogspot.com/')
-})
+import LoginSelector from "../selectors/practiceexpand/loginSelector"
+const login= new LoginSelector;
 
-Cypress.Commands.add('orangeVisit' , ()=>{
-    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    
-
-    
-})
-
-Cypress.Commands.add('hrmLogin',()=>{
-    
-    cy.get('.orangehrm-login-slot')
-    cy.fixture('orangewrong').then((creds)=>{
-    cy.get('input[name="username"]').type(creds.username)
-    cy.get('input[name="password"]').type(creds.password)
-    cy.get('button[type="submit"]').click()
-})
-})
-Cypress.Commands.add('emptylogin', ()=>{
-
-    cy.get('button[type="submit"]').click()
-    cy.contains('span', 'Required').should('be.visible')
-})
-Cypress.Commands.add('tOut',(timeout=40000)=>{
-
-    return cy.get('selector' , {})    
-   
-})
-
-Cypress.Commands.add('hrmLoginT',()=>{   
-
-    cy.get('.orangehrm-login-slot').should('be.visible')
-    cy.fixture('orangeadmin').then((creds) =>{
-    cy.get('input[name="username"]').type(creds.username)
-    cy.get('input[name="password"]').type(creds.password)
-    cy.get('button[type="submit"]').click()
+Cypress.Commands.add('expandLogin', () => {
+  cy.get(login.login).should('be.visible')
+  cy.get('#username').should('be.visible').type(Cypress.env('username'))
+  cy.get('#password').should('be.visible').type(Cypress.env('password'), { log: false })
+  cy.get('#submit-login').click()
+  cy.get('.alert.alert-success.alert-dismissible.fade.show').should('be.visible')
+  cy.get('.btn-close').click()
 
 })
+
+Cypress.Commands.add('expandLogout', () => {
+  cy.get('#login').should('be.visible')
+  cy.get('#username').should('be.visible').type(Cypress.env('username'))
+  cy.get('#password').should('be.visible').type(Cypress.env('password'), { log: false })
+  cy.get('#submit-login').click()
+  cy.get('.alert.alert-success.alert-dismissible.fade.show').should('be.visible')
+  cy.get('.btn-close').click()
+  cy.get('.icon-2x.icon-signout').click()
 })
