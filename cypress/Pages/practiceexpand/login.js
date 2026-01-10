@@ -1,10 +1,1 @@
-class LoginModal{
-
-logIn() {
- cy.visit('https://practice.expandtesting.com/login')   
- cy.expandLogin()
-
-}
-}
-
-export default LoginModal
+a0d9f969e3f52573a1399c073741f5114812d9916544a48fbf7b91f9727a6dbe784d002a0843962a05e38abce72c4bfce9aeef4287b6ac190cba76ceb99d769963164b0bdb99da70051386ff0a62e8104dabbf804395d98cbe10b15dc26ad49140064a804a8316d8f84d2a721f6ff7359fa04a9291fb02431ed69bbc89e0b8d067e90e928bb7d3b5b71df7c01e8689069b70395805be3e5bd2eceeab901d49b5c8ad2f15060ea00297772ca5910c8cf4

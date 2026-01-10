@@ -1,8 +1,1 @@
-export default class ToolSelector{
-
-navigateTools='a[href="/#tools"]'      //
-idHeading= '#tools'
-toolList= '.row.mb-2'
-toolLink1='a[href="/xpath-css-tester"]'
-}
-
+f7a69f9e5d2428c0060d8c866bf5de8668301ccba4d8c5fc5441b9f1407b3fe9d9d7a7a86cbdfcff03fb12770b7b89bb2b263af8abb1afb0fe0d345bace1f29526335cb77cf972f9e7ec31c1e95a229adecb6f5a0769908a5d1dfe7d3e64ab4ff04f3611c97d207b06d15adcd715e55823f7cdd4b291eb04d6613722dd0ffa993d36d1a02c1bf8d28992717aca81e9dc2f79d7108bc896fc73c5217d1a8b2c441efa2464f7dd27816946140c6fde28cc05f1832cf12a98b835578d6d919bf2f2014a83d9613ad5ae95ed13
