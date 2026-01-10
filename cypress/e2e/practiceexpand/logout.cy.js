@@ -1,6 +1,1 @@
-describe('Logut button is functional' , ()=>{
-    it('logout is working' , ()=>{
-        cy.visit('https://practice.expandtesting.com/login')
-        cy.expandLogout()
-    })
-})
+36f25b9325f0da7d7f2a00e12b7c70197254d2bc8211d6e9ae6a047e18f459b63f1939dea5983da1411f14ca7637156ae661a46c7d7d699a0e9ee287665d3772eb51cfc3fb06848cfff7f555146768dc2ef91f6dcb391215f4c8c6e8bea7b3cee931265b49ad943888abd74026bfef0d952b175fa41c1170e34d8acbf5da712e93ae44879678569325b7b3a0e7141919d9436acf6e2062ac7aae4793f6317ac5fb280f3400b63466cccf9f2622ef84efca1498357b22f0d379bcda0f5d91ed6afce8ceee4d83f1fe7440c1fbd6b515379c9f40564ed5

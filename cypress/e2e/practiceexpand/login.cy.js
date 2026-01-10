@@ -1,9 +1,1 @@
-import LoginModal from '../../Pages/practiceexpand/login'
-const loginFeature = new LoginModal()
-
-describe('Verify Login is working' , ()=>{
-     it ('User is able to login' ,()=>{
-     loginFeature.logIn()
-
-})
-})
+177564ebeec0c88a69fdd94bac62176bf6516ec5fb7f8f62d2232f3eff778cdb322bb41d106a30b8040339a80d32f8802b27b4a24beef4a117e70fe2923be52812e67350df140aa09fb547de6698555e4539ee46a973b188530b7b021374f8c09ff7abfd3dffdf9b39344e5ec77450ab862067875eb7292d8c274369977ab85c7074dfe5c7cb4247b1e82df7cafb35ed0b78fe45f5b733d3cb4e969f2235651230e3203a0a2a544f116cea6ccf7d970a1375b8b2f7afa16d856bed64329ef7f21dc2a2b2bb71de2a6ca3dd0ccb65c1b2e5250883b723ba0f79800b6ffa708b2987a6c706857de0c8b61ac8fcec52efdff072e301d97349b5ffa83ca65974
