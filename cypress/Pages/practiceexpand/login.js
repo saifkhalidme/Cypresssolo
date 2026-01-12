@@ -1,4 +1,4 @@
-class LoginModal{
+export default class LoginModalclass LoginModal{
 
 logIn() {
  cy.visit('https://practice.expandtesting.com/login')   
@@ -7,4 +7,3 @@ logIn() {
 }
 }
 
-export default LoginModal
