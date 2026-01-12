@@ -1,1 +1,7 @@
-57190fbd9afde37e04c2639d2b4006efd851eb784f831ff37243cf577111974ec24cdbf34bd9342730de48c408742bb794fa0a0e8f3dd3c51c27a0484fed1f9679b539e85cb12b9d3a38c8f62acff893b7e686dd098d6c98929119a4226908e0cad05fe89bdf495eb1624dcb4ff57b45f800de86786ed2b439fd925b0f87f1cc3538f46e622a00066b6b68fe2302b80515d8817c746eacf068eadee47cc2bfa53e0042bfd35fa26085765d4e42a7f8d9d84ce4e1c6a7c4a41f82200bc84a2121c49e3477f770734be26b94349ccafab66154c95a2e
+export default class LoginSelector{
+login = '#login'
+navigateTools='.nav-link.p-2'      //
+idHeading= '#tools'
+toolList= '.row.mb-2'
+toolLink1='a=[href="/xpath-css-tester"]'
+}

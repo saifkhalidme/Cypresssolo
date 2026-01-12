@@ -1,1 +1,12 @@
-8c8f2da00b26bf72acc584b713abcc5b074a4fca3f03660590428e1fba0a5045e374c996f9df8e4cbf47719fed685282d30205e3d3ece39da48db77aafff491edb78d170c6b87cdeab49e8249305a9b0aa8e7c829131d7c9ed8fc202b41be674e10a1ec156e3b6d7caf7b2a4ae5df513d45546c4a0b38e5666443577c529a1a804d07e7523c2b4f98432e440de3cfc98ccddb2ef852b0dbb3ca8fd897392ef4fe0cbb3a9dc2efd39984c9e0fbe633e01ae636756e6c4c70305fb9969f3251b59a69a2efb5a50ef8cca0ef188076576350745cac195094512f257938d10678db10064e2f57601d1270c9935968ce364a5722f7b4ba3fc340f5ebe826c26cf98d1a1dcc4a76aaf94205b9ee663bcc7599e1424acc0dda018e01db76833d1e9818875686ef73136d784e4166038f11774edec3a1e81a9444ada8842325e3b6d6bc97d50092b5c67f0ea9062e1a49993ac8fceff97bf5caace84840e3ba3dd2e34a9485fbe8234dbc24cd50ed7628c0b7e3d5e9eea1d525f55dea2d040c7e94aa9637c557296a8a0db39e0041de0ab3daf2560839c07232653594b5cb3fd81fe79238197e5b9cdc805410511bc7c330343d148
+import ToolSelector from "../../selectors/practiceexpand/toolsSelector"
+const tools = new ToolSelector
+export default class Tools {
+
+    checkTools() {
+       cy.get(tools.navigateTools, { timeout: 20000 }).should('be.visible').click()
+       cy.get(tools.idHeading).should('be.visible')
+       cy.get(tools.toolList).should('be.visible')
+       cy.get(tools.toolLink1).eq(0).click()
+
+}
+}
