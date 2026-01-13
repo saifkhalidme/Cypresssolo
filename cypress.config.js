@@ -29,9 +29,14 @@ module.exports = defineConfig({
   env: {
     username: process.env.CYPRESS_USERNAME,
     password: process.env.CYPRESS_PASSWORD,
+    jp: {
+      username: process.env.CYPRESS_USERNAME,
+      password: process.env.CYPRESS_PASSWORD,
 
+    },
   },
 
-    
-  
+
+
+
 });

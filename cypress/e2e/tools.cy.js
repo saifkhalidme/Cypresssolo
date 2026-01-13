@@ -1,4 +1,4 @@
-import Tools from '../../Pages/practiceexpand/tools'
+import Tools from '../Pages/practiceexpand/tools'
 const toolsCheck = new Tools()
 
 describe('Verify tools page is visible along tools list', () => {

@@ -1,4 +1,4 @@
-import LoginModal from '../../Pages/practiceexpand/login'
+import LoginModal from './Pages/practiceexpand/login'
 const loginFeature = new LoginModal()
 
 describe('Verify Login is working' , ()=>{
