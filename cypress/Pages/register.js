@@ -3,7 +3,7 @@ const signFlow = new SignIn
 export default class Register {
 
     register() {
-        cy.get(signFlow.signInButton,).click()
+        cy.get(signFlow.signInButton).click()
 
         cy.get(signFlow.register).should('be.visible').click()
 

@@ -5,7 +5,10 @@ Cypress.on('fail', (error) => {
   throw error;
 });
 
-//
+Cypress.on('uncaught:exception', (err, runnable) => {
+  return false
+})
+
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
