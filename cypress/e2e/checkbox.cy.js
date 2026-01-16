@@ -11,7 +11,12 @@ beforeEach(() => {
 it('Verify the checkbox Home and Dropdown', () => {
 
     checkboX.checkthebox()
-
-
 })
+
+
+it ('Verify expand and close buttons are functional' , ()=>{
+
+    checkboX.checkthebox()
+})
+
 })

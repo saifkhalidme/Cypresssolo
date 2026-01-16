@@ -8,6 +8,8 @@ cy.get(checkbox.heading).should('be.visible')
 cy.get(checkbox.headingHome).should('be.visible')
 cy.get(checkbox.hCheckBox).click()
 cy.get(checkbox.dropDown).click()
+cy.get(checkbox.expandButton).click()
+cy.get(checkbox.closeButton).click()
 
 
 
