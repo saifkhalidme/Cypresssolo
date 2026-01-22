@@ -1,6 +1,6 @@
 import LoginForm from '../selectors/loginselectors'
 const login = new LoginForm()
-export class LoginModule{
+export default class LoginModule{
     loginuser(){
     cy.get(login.loginModule).should('be.visible')
     cy.get(login.loginText).should('be.visible')
