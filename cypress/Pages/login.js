@@ -8,7 +8,7 @@ export default class LoginModule{
 }
 
     loginfields(){
-    cy.get(login.userNameFiled).should('be.visible')
+    cy.get(login.userNameField).should('be.visible')
     cy.get(login.passwordField).should('be.visible')
     }
 
