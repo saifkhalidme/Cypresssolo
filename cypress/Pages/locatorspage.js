@@ -16,4 +16,5 @@ export default class LocatorStrategy {
         cy.get(locate.byButtonName).should('be.visible').click()
 
     }
+
 }

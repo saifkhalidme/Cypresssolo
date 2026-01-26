@@ -1,17 +1,19 @@
 import LocatorStrategy from "../Pages/locatorspage"
 const getelement = new LocatorStrategy()
 
-describe('verify and get the elements using different ways', ()=>{
-beforeEach(()=>{
+describe('verify and get the elements using different ways', () => {
+
+  beforeEach(() => {
     cy.visit('https://testpages.eviltester.com/pages/basics/locator-approaches/')
-})
-    it('Verify locators section is visible on page', ()=>{
+  })
 
-        getelement.findContent()
-    })
+  it('Verify locators section is visible on page', () => {
+    getelement.findContent()
+  })
 
-    it ('Get elements using different approach', ()=>{
+  it('Get elements using different approach and show message', () => {
+    getelement.findLocator()
+    cy.showAlert('This test is passed')
+  })
 
-        getelement.findLocator()
-    })
 })

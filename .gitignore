@@ -15,3 +15,4 @@ Thumbs.db
 # Optional: Environment files
 .env
 .env.*
+cypress/support/commands.js
