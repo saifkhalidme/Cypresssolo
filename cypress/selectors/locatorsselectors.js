@@ -1,10 +1,1 @@
-class PageLocators {
-
-    pageVisible = '.td-content'
-    focusedContent = '.findable'
-    liName = '[name="list-of-locatable-items"] li'
-    byId = '#find-by-id'
-    byTheClass= '.find-by-class-name'
-    byButtonName = 'button[name = "find-by-name"]' 
-} 
-export default PageLocators
+a66e70d9a894c8458c51ba8dc5dc76705ca26bcfa19372deea218724760e9b7c338fcc296f4b74da04065942aeb73d6530c7659e3822e11ee54ad74088ea34397fb05a85cb5c4436508af9ccd4f1a6884b22162590ac028efee14cc89e07d23503faca889aeeac0de827b22ae424973d6a80a71e5c51dfedb086c1f24d12761f8a1c505c279adfa69a33e3c42839929b433e3566ebec38d5f684952f51ccb7fcce53f6437af60fc0a42e880171c9997f95826ef1ff4deba7c71fe4c4df49c4673598c3e00cb739b15dfa30a1963848ea476d4d6f2e3bd488099867dd0ce75413ccd544003e366281c4289b214d31b6b0ba6f474823b1a0dab32e945da543e133a31ba7a354fcb795c97610a7747317f8c66bfc87346f18bb7f92ee5d7a3ce234efe6d2a8cd1ed9c1494388c60e2418f366fe88ce5f4074f416d09888d04ed08ea95b58efe4d6

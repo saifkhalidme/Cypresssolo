@@ -1,10 +1,1 @@
-class LoginForm{
-
-    loginModule = '.all-wrapper.menu-side.with-pattern'
-    loginText = '.auth-header'
-    userNameField =  '#username'
-    passwordField = '#password'
-    signInButton = '.btn.btn-primary'
-}
-
-export default LoginForm
+3e3ca0dba39c868faf94df611c13ac5843c07a011bef54f80989b9afe13debf9e44f94de5ff67c4a8bfb4503d49c5f6e159af7be911e080a22bec59c8ca68f52db7b67435f9bf5836783289dd4314b15ee7cea501a2aa1827cfc8f98a785b2598a82428069e3dfa8457d2682f5f058d706e17feb6fe9bb986851d5441b816f88c779612b96436472519ce4e6940fcaedd8423822291996dee09399785579c40203cccbe8c2784821d0fac201732cd220e5dd34d55626c069a47ddf1297ee3abbe1c7d5806d7e8a981cb6296bb1c8ab9c4f1bc9009667582f2022bc315e48164eedfd81893aae9a9cdecb06c55d7d1b9e8160697456ec514b923069da455a7f2a9f03547a2fa354eb2fbce32d327699dc71cba35f
