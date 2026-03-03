@@ -1,1 +1,10 @@
-6f10c7561534c80686fe143d801eb5c88eb553cdbaae5db353f60ea5447e9bdbd48e201291865403b2f4981692d078a3887f1836405357a398922e8ed41a295990c6060083955121de836f19d7a226c2b0b4f81c5091abe7fd7d7647561e81c0ef7bbb57debc425ed88250893bc926a01a427efab9fe624a65f47955018dfd6fae38562ee89faa47febef64a46a9be3107a8c14d59fd28a6669eabcb1f6026bd2f3383096a35d6e3f0fb1fc0b68c19740f01b5a5392e77d55e6b3ec3b206b6b1fa7f40300cc2b164abfeaea4bd64ebae92e99023fe78fbee475f5e211c061f30eab6db3e7a22104db59ad00aa43c7ec732fc0a278b4100e599c12faf3ff05acd8adcc2369e77e2933b8aab73d23a9436eb7fca47
+class LoginForm{
+
+    loginModule = '.all-wrapper.menu-side.with-pattern'
+    loginText = '.auth-header'
+    userNameField =  '#username'
+    passwordField = '#password'
+    signInButton = '.btn.btn-primary'
+}
+
+export default LoginForm
